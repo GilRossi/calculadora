@@ -1,82 +1,97 @@
-🧮 Calculadora em Java
-Este repositório contém duas versões de uma calculadora desenvolvida em Java:
+# 🧮 Calculadora em Java - Versões Console e GUI
 
-CalculadoraSimples.java – versão console (terminal).
+Este repositório contém duas implementações de uma calculadora em Java, demonstrando diferentes abordagens de interface com o usuário.
 
-CalculadoraGUI.java – versão com interface gráfica (Swing) e suporte a atalhos de teclado.
+## 📦 Conteúdo do Projeto
 
-📂 Estrutura do Projeto
+```
 📁 calculadora-java/
-├── CalculadoraSimples.java   # Versão terminal
-├── CalculadoraGUI.java       # Versão com GUI (Swing)
-├── README.md                 # Este arquivo
+├── CalculadoraSimples.java   # Versão para terminal/console
+├── CalculadoraGUI.java       # Versão com interface gráfica (Swing)
+└── README.md                 # Documentação do projeto
+```
 
-✅ Funcionalidades
-1. Console (CalculadoraSimples.java)
-Operações: +, -, *, /
+## ✨ Funcionalidades
 
-Entrada de dois números e operador via teclado
+### 1. Calculadora Console (`CalculadoraSimples.java`)
+- **Operações básicas**: adição (+), subtração (-), multiplicação (*) e divisão (/)
+- **Entrada de dados**: números decimais via teclado
+- **Tratamento de erros**:
+  - Divisão por zero
+  - Operadores inválidos
+- **Saída formatada**: resultados com 2 casas decimais
 
-Formatação dos resultados com 2 casas decimais
+### 2. Calculadora Gráfica (`CalculadoraGUI.java`)
+- **Interface intuitiva** com botões numéricos e operadores
+- **Duplo modo de entrada**:
+  - Clicando nos botões
+  - Digitando diretamente no teclado
+- **Funcionalidades avançadas**:
+  - Suporte a números decimais
+  - Prevenção de divisão por zero
+  - Botão de limpar (C)
+  - Cálculo instantâneo com tecla Enter ou "="
+- **Design responsivo** com layout organizado
 
-Mensagem de erro para divisão por zero ou operação inválida
+## 🚀 Como Executar
 
-2. Interface Gráfica (CalculadoraGUI.java)
-Interface com botões numéricos e operadores
+### Pré-requisitos
+- JDK 8 ou superior instalado
+- Ambiente de desenvolvimento Java configurado
 
-Teclas do teclado habilitadas (ex: 1, +, Enter, C)
+### Instruções
 
-Design limpo e responsivo
+1. **Versão Console**:
+   ```bash
+   javac CalculadoraSimples.java
+   java CalculadoraSimples
+   ```
 
-Suporte a operações básicas com números decimais
+2. **Versão Gráfica**:
+   ```bash
+   javac CalculadoraGUI.java
+   java CalculadoraGUI
+   ```
 
-Prevenção de divisão por zero
+**Dica**: Na versão gráfica, você pode usar tanto o mouse quanto o teclado:
+- Digite números e operadores diretamente
+- Use Enter ou "=" para calcular
+- Pressione 'C' para limpar
 
-Comentários didáticos em todas as linhas para aprendizado
+## 🖼️ Captura de Tela (Interface Gráfica)
 
-▶️ Como Executar
-✔️ Requisitos
-JDK 8 ou superior
+![Interface da Calculadora](screenshot.png)
 
-Compilador Java (ex: javac no terminal)
+*(Incluir imagem da interface após executar o programa)*
 
-1. Executar a versão console:
-javac CalculadoraSimples.java
-java CalculadoraSimples
-2. Executar a versão com interface gráfica:
-javac CalculadoraGUI.java
-java CalculadoraGUI
-Você poderá clicar nos botões ou usar o teclado diretamente.
+## 🎯 Objetivos de Aprendizado
 
-Exemplo: pressione 1 + 2 = no teclado e veja o resultado aparecer.
+Este projeto foi desenvolvido para demonstrar:
+- Fundamentos da linguagem Java
+- Diferenças entre aplicações console e GUI
+- Uso do Swing para interfaces gráficas
+- Tratamento de eventos (mouse e teclado)
+- Boas práticas de programação:
+  - Organização de código
+  - Tratamento de erros
+  - Documentação
+  - Design de interfaces
 
-👨‍🏫 Aprendizado e Propósito
-Este projeto foi desenvolvido com foco em:
+## 📜 Licença
 
-Aprender e praticar os fundamentos da linguagem Java
+Distribuído sob licença MIT. Veja o arquivo `LICENSE` para mais informações.
 
-Utilizar Swing para construção de interfaces gráficas
+## 🤝 Como Contribuir
 
-Aprender a lidar com eventos de teclado e mouse
+Contribuições são bem-vindas! Siga estes passos:
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/incrivel`)
+3. Commit suas mudanças (`git commit -m 'Adiciona feature incrível'`)
+4. Push para a branch (`git push origin feature/incrivel`)
+5. Abra um Pull Request
 
-Compreender boas práticas de codificação, como:
+## ✉️ Contato
 
-Separação de lógica
-
-Uso de layout managers (BorderLayout, GridLayout)
-
-Estrutura de projeto limpa e comentada
-
-📸 Captura de Tela (GUI)
-💡 Você pode adicionar uma imagem aqui se quiser:
-![Calculadora GUI](screenshot.png)
-📘 Licença
-Este projeto é de código aberto sob a licença MIT.
-
-🤝 Contribuição
-Sugestões, melhorias e forks são bem-vindos! Sinta-se à vontade para abrir uma issue ou pull request.
-
-✉️ Contato
-Desenvolvido por [Gil Rossi Aguiar]
-📧 [gil.rossi.aguiar@live.com]
-🌐 https://www.linkedin.com/in/gil-rossi-5814659b/
+**Gil Rossi Aguiar**  
+- Email: [gil.rossi.aguiar@live.com](mailto:gil.rossi.aguiar@live.com)
+- LinkedIn: [https://www.linkedin.com/in/gil-rossi-5814659b/](https://www.linkedin.com/in/gil-rossi-5814659b/)
