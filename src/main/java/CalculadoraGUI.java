@@ -140,7 +140,6 @@ public class CalculadoraGUI extends JFrame implements ActionListener, KeyListene
     }
 
     // Estes dois métodos são obrigatórios quando se usa KeyListener,
-    // mas não vamos usá-los nesse exemplo
     @Override
     public void keyPressed(KeyEvent e) { }
 
