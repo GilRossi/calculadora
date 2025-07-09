@@ -6,13 +6,11 @@ CalculadoraSimples.java – versão console (terminal).
 CalculadoraGUI.java – versão com interface gráfica (Swing) e suporte a atalhos de teclado.
 
 📂 Estrutura do Projeto
-bash
-Copy
-Edit
 📁 calculadora-java/
 ├── CalculadoraSimples.java   # Versão terminal
 ├── CalculadoraGUI.java       # Versão com GUI (Swing)
 ├── README.md                 # Este arquivo
+
 ✅ Funcionalidades
 1. Console (CalculadoraSimples.java)
 Operações: +, -, *, /
@@ -43,15 +41,9 @@ JDK 8 ou superior
 Compilador Java (ex: javac no terminal)
 
 1. Executar a versão console:
-bash
-Copy
-Edit
 javac CalculadoraSimples.java
 java CalculadoraSimples
 2. Executar a versão com interface gráfica:
-bash
-Copy
-Edit
 javac CalculadoraGUI.java
 java CalculadoraGUI
 Você poderá clicar nos botões ou usar o teclado diretamente.
@@ -77,10 +69,6 @@ Estrutura de projeto limpa e comentada
 
 📸 Captura de Tela (GUI)
 💡 Você pode adicionar uma imagem aqui se quiser:
-
-md
-Copy
-Edit
 ![Calculadora GUI](screenshot.png)
 📘 Licença
 Este projeto é de código aberto sob a licença MIT.
@@ -89,6 +77,6 @@ Este projeto é de código aberto sob a licença MIT.
 Sugestões, melhorias e forks são bem-vindos! Sinta-se à vontade para abrir uma issue ou pull request.
 
 ✉️ Contato
-Desenvolvido por [Seu Nome ou GitHub]
-📧 [seuemail@email.com]
-🌐 linkedin.com/in/seuperfil
+Desenvolvido por [Gil Rossi Aguiar]
+📧 [gil.rossi.aguiar@live.com]
+🌐 https://www.linkedin.com/in/gil-rossi-5814659b/
