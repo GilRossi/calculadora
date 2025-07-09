@@ -77,10 +77,6 @@ Este projeto foi desenvolvido para demonstrar:
   - Documentação
   - Design de interfaces
 
-## 📜 Licença
-
-Distribuído sob licença MIT. Veja o arquivo `LICENSE` para mais informações.
-
 ## 🤝 Como Contribuir
 
 Contribuições são bem-vindas! Siga estes passos:
